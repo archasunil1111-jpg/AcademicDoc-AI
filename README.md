@@ -70,7 +70,7 @@ AcademicDoc-AI/
 
 ### 1. Upload & Document Workspace
 
-![AcademicDoc AI Upload](screenshots/01-upload.png)
+![AcademicDoc AI Upload](screenshots/04-upload.png)
 
 ### 2. OCR & Academic Information Extraction
 
@@ -82,4 +82,4 @@ AcademicDoc-AI/
 
 ### 4. Verification, Analytics & Export
 
-![AcademicDoc AI Results](screenshots/04-results.png)
+![AcademicDoc AI Results](screenshots/01-results.png)
