@@ -59,7 +59,7 @@ AcademicDoc-AI/
 ├── Screenshots/
 │   ├── upload.png
 │   ├── ocr-extraction.png
-│   ├── comparison-qa.png
+│   ├── comparison-qa..png
 │   └── results.png
 │
 └── data/
