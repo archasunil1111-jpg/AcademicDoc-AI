@@ -54,7 +54,7 @@ AcademicDoc-AI/
 ├── vector_store.py
 ├── test.py
 ├── .gitignore
-│
+├── requirements.txt
 └── data/
     ├── sample_academic_document.pdf
     ├── sample_academic_document_2.pdf
