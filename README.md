@@ -64,6 +64,7 @@ AcademicDoc-AI/
     ├── sample_academic_document.pdf
     ├── sample_academic_document_2.pdf
     └── scanned_academic_test.pdf
+```
 
 ## 🖥️ Application Screenshots
 
