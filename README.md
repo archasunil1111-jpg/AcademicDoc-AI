@@ -1,51 +1,53 @@
-# 📄 AcademicDoc AI
+# AcademicDoc AI
 
-AcademicDoc AI is an academic document verification and knowledge assistant that extracts information from academic PDFs, validates key fields, compares documents, and answers questions using the extracted document content.
+AcademicDoc AI is an academic document verification and knowledge assistant that processes academic PDF documents, extracts key information, performs validation and consistency checks, compares documents, and answers questions using the extracted document content.
 
-## ✨ Features
+## Features
 
-- 📤 **PDF Upload**  
-  Upload academic PDF documents for analysis.
+### PDF Upload
+Upload academic PDF documents for analysis.
 
-- 🔍 **Text Extraction & OCR**  
-  Extracts text from digital PDFs and uses OCR when readable text is unavailable.
+### Text Extraction & OCR
+Extracts text from digital PDFs and applies OCR when readable text is unavailable, including scanned documents.
 
-- 🎓 **Academic Information Extraction**  
-  Detects:
-  - Student name
-  - Institution
-  - Course
-  - Graduation year
-  - CGPA
+### Academic Information Extraction
+Identifies key academic information such as:
 
-- ✅ **Document Verification**  
-  Checks whether required academic fields are present and validates CGPA and graduation-year formats.
+- Student name
+- Institution
+- Course
+- Graduation year
+- CGPA
 
-- 🧩 **Consistency Checking**  
-  Identifies missing fields, invalid values, and obvious inconsistencies in extracted information.
+### Document Verification
+Checks whether required academic fields are present and validates formats such as CGPA and graduation year.
 
-- 📊 **Document Analytics**  
-  Displays pages, text sections, detected fields, and verification results.
+### Consistency Checking
+Identifies missing fields, invalid values, and obvious inconsistencies in extracted information.
 
-- 🔄 **Document Comparison**  
-  Compares two academic PDFs and highlights differences in extracted fields.
+### Document Analytics
+Displays document pages, extracted text sections, detected fields, and verification results.
 
-- 💬 **Question Answering**  
-  Ask questions about the uploaded document and receive answers based on its extracted content.
+### Document Comparison
+Compares two academic PDFs and highlights differences in extracted fields.
 
-- 📥 **Report & Data Export**  
-  Provides extracted-data and verification-report export options.
+### Question Answering
+Allows users to ask questions about an uploaded document and receive answers based on its extracted content.
 
-## 🛠️ Technologies
+### Report & Data Export
+Provides options to export extracted data and verification reports.
+
+## Technologies
 
 - Python
 - Streamlit
 - PyMuPDF
 - Tesseract OCR
-- OCR/document processing
-- Local RAG-based document question answering
+- OCR and document processing
+- Retrieval-Augmented Generation (RAG)
+- Local LLM-based question answering
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 AcademicDoc-AI/
@@ -68,7 +70,7 @@ AcademicDoc-AI/
     └── scanned_academic_test.pdf
 ```
 
-## 🖥️ Application Screenshots
+## Application Screenshots
 
 ### 1. Upload & Document Workspace
 
@@ -86,21 +88,21 @@ AcademicDoc-AI/
 
 ![AcademicDoc AI Results](Screenshots/results.png)
 
-## ⚙️ How It Works
+## How It Works
 
 1. Upload an academic PDF.
 2. Extract text from the document.
 3. Apply OCR when required for scanned documents.
 4. Identify key academic information.
-5. Perform verification and consistency checks.
+5. Perform validation and consistency checks.
 6. Compare academic documents when a second document is provided.
 7. Ask questions about the uploaded document.
-8. Export extracted data or a verification report.
+8. Export extracted data or verification results.
 
-## ⚠️ Note
+## Project Purpose
+
+AcademicDoc AI demonstrates how document processing, OCR, information extraction, validation checks, document comparison, and retrieval-based question answering can be combined into a single academic document assistant.
+
+## Important Note
 
 The verification features validate information extracted from the uploaded document. They do not establish that a document is an authentic certificate issued by an institution.
-
-## 📌 Project Purpose
-
-AcademicDoc AI demonstrates how document processing, OCR, information extraction, verification checks, document comparison, and local retrieval-based question answering can be combined into a single academic document assistant.
