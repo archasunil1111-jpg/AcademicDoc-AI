@@ -59,3 +59,17 @@ AcademicDoc-AI/
     ├── sample_academic_document.pdf
     ├── sample_academic_document_2.pdf
     └── scanned_academic_test.pdf
+
+## 🖥️ Application Screenshots
+
+### 1. Upload & Document Workspace
+![AcademicDoc AI Upload](screenshots/01-upload.png)
+
+### 2. OCR & Academic Information Extraction
+![AcademicDoc AI OCR](screenshots/02-ocr-extraction.png)
+
+### 3. Document Comparison & Question Answering
+![AcademicDoc AI Comparison](screenshots/03-comparison-qa.png)
+
+### 4. Verification, Analytics & Export
+![AcademicDoc AI Results](screenshots/04-results.png)
