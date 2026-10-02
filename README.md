@@ -66,3 +66,41 @@ AcademicDoc-AI/
     ├── sample_academic_document.pdf
     ├── sample_academic_document_2.pdf
     └── scanned_academic_test.pdf
+```
+
+## 🖥️ Application Screenshots
+
+### 1. Upload & Document Workspace
+
+![AcademicDoc AI Upload](Screenshots/upload.png)
+
+### 2. OCR & Academic Information Extraction
+
+![AcademicDoc AI OCR](Screenshots/ocr-extraction.png)
+
+### 3. Document Comparison & Question Answering
+
+![AcademicDoc AI Comparison](Screenshots/comparison-qa..png)
+
+### 4. Verification, Analytics & Export
+
+![AcademicDoc AI Results](Screenshots/results.png)
+
+## ⚙️ How It Works
+
+1. Upload an academic PDF.
+2. Extract text from the document.
+3. Apply OCR when required for scanned documents.
+4. Identify key academic information.
+5. Perform verification and consistency checks.
+6. Compare academic documents when a second document is provided.
+7. Ask questions about the uploaded document.
+8. Export extracted data or a verification report.
+
+## ⚠️ Note
+
+The verification features validate information extracted from the uploaded document. They do not establish that a document is an authentic certificate issued by an institution.
+
+## 📌 Project Purpose
+
+AcademicDoc AI demonstrates how document processing, OCR, information extraction, verification checks, document comparison, and local retrieval-based question answering can be combined into a single academic document assistant.
