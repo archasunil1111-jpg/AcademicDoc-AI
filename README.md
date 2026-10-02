@@ -57,10 +57,10 @@ AcademicDoc-AI/
 ├── requirements.txt
 │
 ├── Screenshots/
-│   ├── 01-upload.png
-│   ├── 02-ocr-extraction.png
-│   ├── 03-comparison-qa.png
-│   └── 04-results.png
+│   ├── upload.png
+│   ├── ocr-extraction.png
+│   ├── comparison-qa.png
+│   └── results.png
 │
 └── data/
     ├── sample_academic_document.pdf
