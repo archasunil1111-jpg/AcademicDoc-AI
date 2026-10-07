@@ -70,7 +70,7 @@ AcademicDoc-AI/
 ├── Screenshots/
 │   ├── upload.png
 │   ├── ocr-extraction.png
-│   ├── comparison-qa.png
+│   ├── comparison-qa..png
 │   └── results.png
 │
 └── data/
@@ -91,7 +91,7 @@ AcademicDoc-AI/
 
 ### 3. Document Comparison & Question Answering
 
-![AcademicDoc AI Comparison](Screenshots/comparison-qa.png)
+![AcademicDoc AI Comparison](Screenshots/comparison-qa..png)
 
 ### 4. Validation, Analytics & Export
 
