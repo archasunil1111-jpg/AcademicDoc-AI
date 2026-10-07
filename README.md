@@ -1,16 +1,19 @@
 # AcademicDoc AI
 
-AcademicDoc AI is an academic document verification and knowledge assistant that processes academic PDF documents, extracts key information, performs validation and consistency checks, compares documents, and answers questions using the extracted document content.
+AcademicDoc AI is a Python-based document processing and knowledge assistant for academic PDFs. It extracts information from digital and scanned documents, performs validation and consistency checks, compares documents, provides document analytics, and supports question answering using extracted document content.
 
 ## Features
 
 ### PDF Upload
+
 Upload academic PDF documents for analysis.
 
 ### Text Extraction & OCR
+
 Extracts text from digital PDFs and applies OCR when readable text is unavailable, including scanned documents.
 
 ### Academic Information Extraction
+
 Identifies key academic information such as:
 
 - Student name
@@ -19,23 +22,29 @@ Identifies key academic information such as:
 - Graduation year
 - CGPA
 
-### Document Verification
+### Document Validation
+
 Checks whether required academic fields are present and validates formats such as CGPA and graduation year.
 
 ### Consistency Checking
+
 Identifies missing fields, invalid values, and obvious inconsistencies in extracted information.
 
 ### Document Analytics
-Displays document pages, extracted text sections, detected fields, and verification results.
+
+Displays document pages, extracted text sections, detected fields, and validation results.
 
 ### Document Comparison
+
 Compares two academic PDFs and highlights differences in extracted fields.
 
 ### Question Answering
+
 Allows users to ask questions about an uploaded document and receive answers based on its extracted content.
 
 ### Report & Data Export
-Provides options to export extracted data and verification reports.
+
+Provides options to export extracted data and validation reports.
 
 ## Technologies
 
@@ -61,7 +70,7 @@ AcademicDoc-AI/
 ├── Screenshots/
 │   ├── upload.png
 │   ├── ocr-extraction.png
-│   ├── comparison-qa..png
+│   ├── comparison-qa.png
 │   └── results.png
 │
 └── data/
@@ -82,9 +91,9 @@ AcademicDoc-AI/
 
 ### 3. Document Comparison & Question Answering
 
-![AcademicDoc AI Comparison](Screenshots/comparison-qa..png)
+![AcademicDoc AI Comparison](Screenshots/comparison-qa.png)
 
-### 4. Verification, Analytics & Export
+### 4. Validation, Analytics & Export
 
 ![AcademicDoc AI Results](Screenshots/results.png)
 
@@ -97,7 +106,7 @@ AcademicDoc-AI/
 5. Perform validation and consistency checks.
 6. Compare academic documents when a second document is provided.
 7. Ask questions about the uploaded document.
-8. Export extracted data or verification results.
+8. Export extracted data or validation results.
 
 ## Project Purpose
 
@@ -105,4 +114,4 @@ AcademicDoc AI demonstrates how document processing, OCR, information extraction
 
 ## Important Note
 
-The verification features validate information extracted from the uploaded document. They do not establish that a document is an authentic certificate issued by an institution.
+The validation features validate information extracted from the uploaded document. They do not establish that a document is an authentic certificate issued by an institution.
